@@ -1,0 +1,14 @@
+<form [formGroup]="FormData" (ngSubmit)="onSubmit()">
+    <div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Email</label>
+                <input id="email" type="email" class="form-control">
+                <br>
+                <button type="button" class="btn btn-primary" (click)="sendOTP()">SUBMIT</button>
+            </div>   
+            
+        </div>
+    </div>
+
+</form>
